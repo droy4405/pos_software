@@ -1,16 +1,12 @@
-import { MouseEvent, useState } from "react";
+import { useState } from "react";
 
-function MenuBar() {
-  const components = [
-    "Home",
-    "Sales",
-    "Purchases",
-    "Inventory",
-    "Contacts",
-    "Product Setting",
-    "Report",
-    "Setting",
-  ];
+interface Props{
+  components: string[];
+  onSelectItem: (component: string) => void;
+}
+
+function MenuBar({components, onSelectItem}: Props) {
+  
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
   return (
@@ -26,6 +22,7 @@ function MenuBar() {
             key={component}
             onClick={() => {
               setSelectedIndex(index);
+              onSelectItem(component);
             }}
           >
             {component}

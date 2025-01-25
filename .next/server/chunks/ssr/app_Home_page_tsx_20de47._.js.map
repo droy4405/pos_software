@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/dibbo/pos_software/app/Home/page.tsx"],"sourcesContent":["'use client';\nimport \"./globals.css\";\n\nfunction Monthly  () {\n    return (\n        <main>\n          <h1>Hi Manager!</h1>\n          <div>\n              <span>Today</span>\n              <span>Weekly</span>\n              <span>Monthly</span>\n              <span>Date</span>\n          </div>\n          <div>\n              This month your store has sold <strong>BDT.10,000,000</strong>\n          </div>\n          <div>\n              That is <strong>BDT.500,000</strong> more than this time last month\n          </div>\n        </main>\n  );\n  \n  }\n  export default Monthly;"],"names":[],"mappings":";;;;;;;;;AAAA;;;AAGA,SAAS;IACL,qBACI,8OAAC;;0BACC,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;;kCACG,8OAAC;kCAAK;;;;;;kCACN,8OAAC;kCAAK;;;;;;kCACN,8OAAC;kCAAK;;;;;;kCACN,8OAAC;kCAAK;;;;;;;;;;;;0BAEV,8OAAC;;oBAAI;kCAC8B,8OAAC;kCAAO;;;;;;;;;;;;0BAE3C,8OAAC;;oBAAI;kCACO,8OAAC;kCAAO;;;;;;oBAAoB;;;;;;;;;;;;;AAKhD;uCACe"}},
+    {"offset": {"line": 106, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

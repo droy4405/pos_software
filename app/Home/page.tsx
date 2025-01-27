@@ -12,7 +12,7 @@ const Monthly = () => {
               <span>Date</span>
           </div>
           <div>
-              This month your store has sold <strong>BDT.10,000,000</strong>
+              This month your store has sold <strong>BDT.20,000,000</strong>
           </div>
           <div>
               That is <strong>BDT.500,000</strong> more than this time last month

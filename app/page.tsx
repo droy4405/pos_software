@@ -10,7 +10,10 @@ function Page() {
       <Daily/>
       <ClickEvent />
       <Link href="/Home">
-          <h1>Monthly</h1>
+        <h1>Monthly</h1>
+      </Link>
+      <Link href="/Users">
+        <h1>Users</h1>
       </Link>
     </main>
   );

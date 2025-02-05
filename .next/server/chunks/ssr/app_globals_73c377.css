@@ -302,8 +302,15 @@ img, video {
 }
 
 :root {
-  --background: #fff;
+  --background: #fff3da;
   --foreground: #171717;
+}
+
+@media (prefers-color-scheme: default) {
+  :root {
+    --background: #000;
+    --foreground: #fff3da;
+  }
 }
 
 body {

@@ -1,19 +1,21 @@
-import Daily from "./Home/Daily/daily";
+import Home from "./Home/page";
 import "./globals.css";
 import Link from "next/link";
 import React from "react";
-import { ClickEvent } from "./Components/ClickEvent";
+
 
 function Page() {
   return (
     <main>
-      <Daily/>
-      <ClickEvent />
+      <Home/>
       <Link href="/Home">
-        <h1>Monthly</h1>
+        <h1 className="mg-5"></h1>
       </Link>
       <Link href="/Users">
         <h1>Users</h1>
+      </Link>
+      <Link href="/Components/Products">
+        <h1>Products</h1>
       </Link>
     </main>
   );

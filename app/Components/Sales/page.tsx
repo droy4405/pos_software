@@ -1,6 +1,5 @@
-"use client"; // Required for client-side interactivity
-
 import Link from "next/link";
+import GoBack from "../buttons/GoBack";
 
 export default function SalesPage() {
   return (
@@ -23,6 +22,7 @@ export default function SalesPage() {
           <span className="text-lg font-semibold text-gray-900">Sales Return</span>
         </Link>
       </div>
+      <GoBack/>
     </div>
   );
 }

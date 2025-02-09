@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":["file:///home/dibbo/pos_software/app/Components/buttons/GoBack.tsx"],"sourcesContent":["'use client';\n\nimport React from 'react'\nimport useRouter from 'next/router'\n\nconst GoBack = () => {\n  const router = useRouter()\n  return (\n    <div>\n      <button\n        onClick={() => router.back()} // Go back to the previous page\n        className=\"mt-8 px-6 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-700 transition-colors duration-300\"\n      >\n        Go Back\n      </button>\n    </div>\n  )\n}\n\nexport default GoBack;"],"names":[],"mappings":";;;;AAGA;AAHA;;;AAKA,MAAM,SAAS;IACb,MAAM,SAAS,CAAA,GAAA,8HAAA,CAAA,UAAS,AAAD;IACvB,qBACE,8OAAC;kBACC,cAAA,8OAAC;YACC,SAAS,IAAM,OAAO,IAAI;YAC1B,WAAU;sBACX;;;;;;;;;;;AAKP;uCAEe"}},
+    {"offset": {"line": 66, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

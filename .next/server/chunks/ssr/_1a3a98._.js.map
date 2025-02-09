@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["file:///home/dibbo/pos_software/app/page.tsx"],"sourcesContent":["import Home from \"./Home/page\";\nimport \"./globals.css\";\nimport Link from \"next/link\";\nimport React from \"react\";\n\n\nfunction Page() {\n  return (\n    <main>\n      <Home/>\n      <Link href=\"/Home\">\n        <h1 className=\"mg-5\"></h1>\n      </Link>\n      <Link href=\"/Users\">\n        <h1>Users</h1>\n      </Link>\n      <Link href=\"/Components/Products\">\n        <h1>Products</h1>\n      </Link>\n    </main>\n  );\n}\nexport default Page;\n"],"names":[],"mappings":";;;;AAAA;AAEA;;;;;AAIA,SAAS;IACP,qBACE,8OAAC;;0BACC,8OAAC,oHAAA,CAAA,UAAI;;;;;0BACL,8OAAC,4JAAA,CAAA,UAAI;gBAAC,MAAK;0BACT,cAAA,8OAAC;oBAAG,WAAU;;;;;;;;;;;0BAEhB,8OAAC,4JAAA,CAAA,UAAI;gBAAC,MAAK;0BACT,cAAA,8OAAC;8BAAG;;;;;;;;;;;0BAEN,8OAAC,4JAAA,CAAA,UAAI;gBAAC,MAAK;0BACT,cAAA,8OAAC;8BAAG;;;;;;;;;;;;;;;;;AAIZ;uCACe"}},
+    {"offset": {"line": 84, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 95, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 95, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

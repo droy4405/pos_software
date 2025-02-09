@@ -1,7 +1,5 @@
-"use client";
-
 import Link from "next/link";
-import { useRouter } from "next/navigation"; // Import useRouter
+import GoBack from "../buttons/GoBack";
 
 const products = [
   { name: "All Products", href: "/Components/Products/AllProducts" },
@@ -15,8 +13,6 @@ const products = [
 ];
 
 export default function ProductsPage() {
-  const router = useRouter(); // Initialize useRouter
-
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-6">
       <h1 className="text-3xl font-bold text-gray-900 mb-8">Products</h1>
@@ -34,12 +30,7 @@ export default function ProductsPage() {
         ))}
       </div>
       {/* Back Button */}
-      <button
-        onClick={() => router.back()} // Go back to the previous page
-        className="mt-8 px-6 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-700 transition-colors duration-300"
-      >
-        Go Back
-      </button>
+      <GoBack/>
     </div>
   );
 }

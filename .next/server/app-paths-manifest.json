@@ -1,18 +1,3 @@
 {
-  "/page": "app/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/Components/page": "app/Components/page.js",
-  "/Components/Products/page": "app/Components/Products/page.js",
-  "/Components/Products/AllProducts/page": "app/Components/Products/AllProducts/page.js",
-  "/Components/Products/Mobile/page": "app/Components/Products/Mobile/page.js",
-  "/Components/Products/Charger/page": "app/Components/Products/Charger/page.js",
-  "/Components/Products/ScreenProtector/page": "app/Components/Products/ScreenProtector/page.js",
-  "/Components/Products/CustomOptions/page": "app/Components/Products/CustomOptions/page.js",
-  "/Components/Products/Headphones/page": "app/Components/Products/Headphones/page.js",
-  "/Components/Products/SmartWatch/page": "app/Components/Products/SmartWatch/page.js",
-  "/Components/Products/Cover/page": "app/Components/Products/Cover/page.js",
-  "/Components/Sales/page": "app/Components/Sales/page.js",
-  "/Components/Sales/Sales/page": "app/Components/Sales/Sales/page.js",
-  "/Components/Sales/SalesReturn/page": "app/Components/Sales/SalesReturn/page.js"
+  "/page": "app/page.js"
 }

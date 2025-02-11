@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/User/pos_software/app/Components/LogoutButton/LogoutButton.tsx"],"sourcesContent":["// /app/components/LogoutButton.tsx\r\n\"use client\";\r\n\r\nimport { deleteCookie } from \"cookies-next\";\r\nimport { useRouter } from \"next/navigation\";\r\n\r\nexport default function LogoutButton() {\r\n  const router = useRouter();\r\n\r\n  const handleLogout = async () => {\r\n    await fetch(\"/api/logout\", { method: \"POST\" });\r\n    deleteCookie(\"auth-token\");\r\n    deleteCookie(\"user-role\");\r\n    router.push(\"/\"); // Redirect to the home page\r\n  };\r\n\r\n  return (\r\n    <button\r\n      onClick={handleLogout}\r\n      className=\"px-4 py-2 bg-white p-6 rounded-lg shadow-md border border-gray-200 hover:shadow-lg transition-all duration-300 flex items-center gap-3\"\r\n    >\r\n      Logout\r\n    </button>\r\n  );\r\n}"],"names":[],"mappings":"AAAA,mCAAmC;;;;;AAGnC;AACA;AAHA;;;;AAKe,SAAS;IACtB,MAAM,SAAS,CAAA,GAAA,kIAAA,CAAA,YAAS,AAAD;IAEvB,MAAM,eAAe;QACnB,MAAM,MAAM,eAAe;YAAE,QAAQ;QAAO;QAC5C,CAAA,GAAA,+IAAA,CAAA,eAAY,AAAD,EAAE;QACb,CAAA,GAAA,+IAAA,CAAA,eAAY,AAAD,EAAE;QACb,OAAO,IAAI,CAAC,MAAM,4BAA4B;IAChD;IAEA,qBACE,8OAAC;QACC,SAAS;QACT,WAAU;kBACX;;;;;;AAIL"}},
+    {"offset": {"line": 70, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

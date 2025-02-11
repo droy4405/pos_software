@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/User/pos_software/app/admin/dashboard/page.tsx"],"sourcesContent":["import { deleteCookie } from \"cookies-next\";\r\nimport { redirect } from \"next/navigation\";\r\n\r\nexport default function AdminDashboard() {\r\n  const handleLogout = async () => {\r\n    await fetch(\"/api/logout\", { method: \"POST\" });\r\n    redirect(\"/\");\r\n  };\r\n\r\n  return (\r\n    <div className=\"flex flex-col items-center justify-center min-h-screen bg-gray-100 p-6\">\r\n      <h1 className=\"text-3xl font-bold text-gray-900 mb-8\">Admin Dashboard</h1>\r\n      <div className=\"w-full max-w-4xl bg-white p-8 rounded-lg shadow-md\">\r\n        <h2 className=\"text-xl font-semibold text-gray-900 mb-4\">Welcome, Admin!</h2>\r\n        <button\r\n          onClick={handleLogout}\r\n          className=\"px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500\"\r\n        >\r\n          Logout\r\n        </button>\r\n      </div>\r\n    </div>\r\n  );\r\n}"],"names":[],"mappings":";;;;AACA;AAAA;;;AAEe,SAAS;IACtB,MAAM,eAAe;QACnB,MAAM,MAAM,eAAe;YAAE,QAAQ;QAAO;QAC5C,CAAA,GAAA,qLAAA,CAAA,WAAQ,AAAD,EAAE;IACX;IAEA,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBAAG,WAAU;0BAAwC;;;;;;0BACtD,8OAAC;gBAAI,WAAU;;kCACb,8OAAC;wBAAG,WAAU;kCAA2C;;;;;;kCACzD,8OAAC;wBACC,SAAS;wBACT,WAAU;kCACX;;;;;;;;;;;;;;;;;;AAMT"}},
+    {"offset": {"line": 66, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 77, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 77, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

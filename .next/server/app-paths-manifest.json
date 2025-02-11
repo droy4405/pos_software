@@ -1,5 +1,24 @@
 {
+  "/auth/login/page": "app/auth/login/page.js",
   "/page": "app/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/Components/Products/page": "app/Components/Products/page.js"
+  "/admin/dashboard/page": "app/admin/dashboard/page.js",
+  "/api/auth/route": "app/api/auth/route.js",
+  "/manager/dashboard/page": "app/manager/dashboard/page.js",
+  "/api/logout/route": "app/api/logout/route.js",
+  "/Components/Purchase/page": "app/Components/Purchase/page.js",
+  "/Components/Sales/Sales/page": "app/Components/Sales/Sales/page.js",
+  "/Components/Sales/SalesReturn/page": "app/Components/Sales/SalesReturn/page.js",
+  "/Components/Productsetting/page": "app/Components/Productsetting/page.js",
+  "/Components/Productsetting/Phones/page": "app/Components/Productsetting/Phones/page.js",
+  "/Components/Productsetting/Cover/page": "app/Components/Productsetting/Cover/page.js",
+  "/Components/Productsetting/Charger/page": "app/Components/Productsetting/Charger/page.js",
+  "/Components/Report/page": "app/Components/Report/page.js",
+  "/Components/Report/BalanceSheet/page": "app/Components/Report/BalanceSheet/page.js",
+  "/Components/Products/page": "app/Components/Products/page.js",
+  "/Components/Report/SalesReport/page": "app/Components/Report/SalesReport/page.js",
+  "/Components/Contacts/page": "app/Components/Contacts/page.js",
+  "/Components/Contacts/CustomerInformation/page": "app/Components/Contacts/CustomerInformation/page.js",
+  "/Components/Contacts/CustomerDues/page": "app/Components/Contacts/CustomerDues/page.js",
+  "/Components/Sales/page": "app/Components/Sales/page.js"
 }

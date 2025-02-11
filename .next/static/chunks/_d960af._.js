@@ -669,7 +669,7 @@ function Sales() {
         columnNumber: 5
     }, this);
 }
-_s(Sales, "/3+2s3YiufeYNKU/x+pQvf4p+jo=");
+_s(Sales, "jWonl7sVRFYqvI5Fi2Hq2Ee1pV4=");
 _c = Sales;
 var _c;
 __turbopack_refresh__.register(_c, "Sales");

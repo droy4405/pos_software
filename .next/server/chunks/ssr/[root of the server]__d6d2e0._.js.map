@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/User/pos_software/app/Components/HomePageClient/MotionWelcome.tsx"],"sourcesContent":["\"use client\";\r\nimport React from \"react\";\r\nimport { motion } from \"framer-motion\";\r\n\r\ninterface MotionEffectProps {\r\n  effect01: string;\r\n  className?: string;\r\n  initialOpacity?: number;\r\n  initialY?: number;\r\n  animateOpacity?: number;\r\n  animateY?: number;\r\n  transition?: object;\r\n}\r\n\r\nexport function MotionEffect({\r\n  effect01,\r\n  className = \"text-4xl font-extrabold mb-8\",\r\n  initialOpacity = 0,\r\n  initialY = -20,\r\n  animateOpacity = 1,\r\n  animateY = 0,\r\n  transition = { duration: 0.8 },\r\n  \r\n}: MotionEffectProps) {\r\n  return (\r\n    <motion.h1\r\n      className={className}\r\n      initial={{ opacity: initialOpacity, y: initialY }}\r\n      animate={{ opacity: animateOpacity, y: animateY }}\r\n      transition={transition}\r\n    >\r\n      {effect01}\r\n      \r\n    </motion.h1>\r\n  );\r\n}"],"names":[],"mappings":";;;;AAEA;AAFA;;;AAcO,SAAS,aAAa,EAC3B,QAAQ,EACR,YAAY,8BAA8B,EAC1C,iBAAiB,CAAC,EAClB,WAAW,CAAC,EAAE,EACd,iBAAiB,CAAC,EAClB,WAAW,CAAC,EACZ,aAAa;IAAE,UAAU;AAAI,CAAC,EAEZ;IAClB,qBACE,8OAAC,0LAAA,CAAA,SAAM,CAAC,EAAE;QACR,WAAW;QACX,SAAS;YAAE,SAAS;YAAgB,GAAG;QAAS;QAChD,SAAS;YAAE,SAAS;YAAgB,GAAG;QAAS;QAChD,YAAY;kBAEX;;;;;;AAIP"}},
+    {"offset": {"line": 44, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

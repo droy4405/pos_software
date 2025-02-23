@@ -1,3 +1,11 @@
 {
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/auth/login/page": "app/auth/login/page.js",
+  "/api/auth/route": "app/api/auth/route.js",
+  "/manager/dashboard/page": "app/manager/dashboard/page.js",
+  "/Components/Sales/page": "app/Components/Sales/page.js",
+  "/Components/Sales/Sales/page": "app/Components/Sales/Sales/page.js",
+  "/Components/Products/page": "app/Components/Products/page.js",
+  "/Components/Products/AllProducts/page": "app/Components/Products/AllProducts/page.js",
+  "/Components/Products/Mobile/page": "app/Components/Products/Mobile/page.js"
 }
